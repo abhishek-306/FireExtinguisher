@@ -1,0 +1,40 @@
+// OWL carousel script
+$('.first-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:false,
+    dots:false,
+    autoplayTimeout:2000,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+$('.second-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    // nav:true,
+    autoplay:true,
+    dots:true,
+    autoplayTimeout:3000,
+    responsive:{
+        0:{
+          items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:3
+        }
+    }
+})

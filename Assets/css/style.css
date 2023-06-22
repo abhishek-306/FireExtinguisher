@@ -1,0 +1,329 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-heading {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.headings {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.para {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.para:hover {
+    color: rgb(217, 7, 7);
+    transition: .6s;
+}
+
+.button {
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 15px 40px;
+    background-color: rgb(217, 7, 7);
+}
+
+.button:hover {
+    color: rgb(217, 7, 7);
+    border: 1px solid rgb(217, 7, 7);
+    background-color: transparent;
+    transition: .6s;
+}
+
+.logo {
+    width: 5rem;
+}
+
+.section-1 {
+    background-color: rgb(217, 7, 7);
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: rgb(188, 10, 10) !important;
+}
+
+.carousel-caption {
+    transform: translate(0%, -15%);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.carousel {
+    height: 80vh !important;
+}
+
+.back-1 {
+    background-image: url(../images/Backgrounds/carousel-1.webp);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back-2 {
+    background-image: url(../images/Backgrounds/carousel-2.webp);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back-3 {
+    background-image: url(../images/Backgrounds/carousel-3.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section 2 */
+
+.section-2 {
+    background-color: rgb(255, 248, 248);
+}
+
+.background {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.background:hover {
+    border-bottom: 4px solid rgb(217, 7, 7);
+    transition: .6s;
+}
+
+.cards {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.cards:hover {
+    color: rgb(217, 7, 7);
+    transition: .5s;
+}
+
+/*  section 3 */
+.back {
+    background-color: rgb(248, 245, 245);
+    position: relative;
+    width: 23rem;
+    border-top: 5px solid rgb(217, 7, 7);
+    border-left: 5px solid rgb(217, 7, 7);
+}
+
+.image img {
+    width: 5rem;
+    padding: 5px 5px;
+}
+
+.image {
+    background-color: rgb(248, 245, 245);
+    border-radius: 50%;
+    width: 5rem;
+    position: absolute;
+    top: -30%;
+    left: 39%
+}
+
+/* section 4 */
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(217, 7, 7);
+}
+
+.item-1 {
+    width: 20rem;
+    padding: 0.9rem 1.5rem;
+}
+
+.section-4-image {
+    width: 19rem;
+}
+
+/*  section 5  */
+
+.section-5 {
+    background-image: url(../images/Backgrounds/back-2.jpg);
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.numbers {
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.light-back {
+    padding: .5rem;
+    border: 1px solid rgb(189, 183, 183);
+}
+
+/* section 6 cards */
+
+
+
+
+
+
+
+
+/*  section 7 Testimonial section  */
+
+
+.section-7 {
+    background-color: black;
+}
+
+.testimony-card {
+    border: 1.5px solid rgb(55, 53, 53);
+    border-radius: 0.7rem;
+}
+
+
+.testimony-detail img {
+    width: 5rem !important;
+    border-radius: 50%;
+}
+
+.testimony-detail {
+    padding-top: 1rem;
+}
+
+.section-6 .testimony-card {
+    padding: 10px 10px;
+}
+
+.section-6 .testimony-card:hover {
+    transition: 0.6s;
+}
+
+.section-6 .testimony-card:hover {
+    color: rgb(217, 7, 7);
+}
+
+.testimony-icons {
+    color: rgb(217, 7, 7);
+}
+
+/* footer section  */
+
+footer {
+    /* background-image: url("../images/background-images/back-5.jpg"); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+}
+
+.para-2 {
+    color: white;
+    font-size: 1rem;
+}
+
+.para-2:hover {
+    color: rgb(217, 7, 7);
+    transition: .6s;
+}
+
+
+.input {
+    padding: 15px 30px;
+    border: 1px solid rgba(249, 249, 249, 0.2);
+    background-color: white;
+    border-radius: 12px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.list-style {
+    list-style: none;
+    padding-left: 0px !important;
+}
+
+
+.list-style a {
+    text-decoration: none;
+    color: white;
+}
+
+.list-style a:hover {
+    color: rgb(199, 8, 10);
+    transition: .6s;
+}
+
+/*  sub footer */
+
+.background-3 {
+    background-color: rgb(217, 7, 7);
+}
+
+/*  contact us page css  */
+
+.section-1-contact {
+    padding: 3rem 2.5rem;
+    background-color: rgb(217, 7, 7);
+    height: 27vh;
+}
+
+.link {
+    background-color: rgb(244, 242, 242);
+}
+
+/*  form section */
+
+textarea {
+    outline: none;
+    resize: none;
+}
+
+.button {
+    background-color: rgb(217, 7, 7);
+    color: white;
+    font-size: .9rem;
+    /* width: 4rem; */
+    border: none;
+    /* border-radius: 1rem; */
+    padding: 1rem 1.5rem;
+}
+
+.button:hover {
+    color: rgb(217, 7, 7);
+    background: transparent;
+    border: 1px solid rgb(217, 7, 7, 0.5);
+}
